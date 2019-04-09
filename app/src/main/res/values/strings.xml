@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">KennyGame</string>
+    <string name="todo">TODO</string>
+    <string name="score_0">Score: 0</string>
+    <string name="time_10">Time: 10</string>
+    <string name="todo">TODO</string>
+</resources>
