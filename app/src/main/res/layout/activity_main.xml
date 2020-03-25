@@ -6,6 +6,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@drawable/gradient"
         tools:context=".MainActivity">
     <androidx.gridlayout.widget.GridLayout
             android:layout_width="375dp"
@@ -109,6 +110,7 @@
             android:gravity="center"
             android:textSize="30sp"
             android:textAlignment="center"
+            android:textColor="#fff"
             tools:ignore="MissingConstraints"/>
     <TextView
             android:text="@string/score_0"
@@ -116,6 +118,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/scoreText"
             android:textSize="30sp"
+            android:textColor="#fff"
             android:gravity="center"
             app:layout_constraintTop_toBottomOf="@+id/gridLayout"
             android:layout_marginBottom="8dp"
